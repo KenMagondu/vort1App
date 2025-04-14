@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/menu_header_img"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@mail.com"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+
+</LinearLayout>
